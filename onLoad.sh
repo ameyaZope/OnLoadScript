@@ -20,6 +20,7 @@ sudo snap install vlc
 
 defaultLoactionOfGoogleChrome=/media/ubuntu/Volume\ D/Ubuntu\ Install/google-chrome-stable_current_amd64.deb 
 addressOfGoogleChrome=/media/ubuntu/Volume\ D/Ubuntu\ Install/google-chrome-stable_current_amd64.deb
+echo $addressOfGoogleChrome 
 if [ $# -ge 2 ] && [ $1 = "GoogleChrome" ] 
 	then
 		addressOfGoogleChrome=${2:-defaultLoactionOfGoogleChrome}
